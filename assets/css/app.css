@@ -7,4 +7,9 @@ body {
     margin-top: 10rem;
     padding-top: 15px;
     padding-bottom: 15px;
+    height: 430px;
+}
+
+#terminal {
+    height: 400px;
 }
