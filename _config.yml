@@ -1,1 +1,1 @@
-exclude: ["CNAME", "README.md", "bower.json", ".gitignore"]
+exclude: ["CNAME", "README.md", "LICENSE", "bower.json", ".gitignore"]
