@@ -1,0 +1,17 @@
+{
+  "name": "dontworry",
+  "version": "0.0.1",
+  "homepage": "https://github.com/colestrode/dontworry",
+  "description": "Don't even worry about it. What are you worried about?",
+  "authors": [
+    "Cole Furfaro-Strode"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
