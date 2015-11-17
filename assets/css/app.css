@@ -1,4 +1,11 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 body {
+    /* Margin bottom by footer height */
+    margin-bottom: 30px;
     background-image: url('../images/real_fake_doors.png')
 }
 
@@ -10,6 +17,16 @@ body {
     height: 430px;
 }
 
-#terminal {
+.terminal {
     height: 400px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 30px;
+    background-color: #FAE6AD;
+    padding-top: 5px;
 }
