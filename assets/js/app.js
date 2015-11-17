@@ -25,6 +25,9 @@ $(document).ready(function() {
     'That\'s uh, I mean, that\'s not even a thing, so don\'t worry about it alright.',
     'So uh, yeah, I mean, I don\'t know. Just like don\'t worry about it ok?',
     'Oh geez, that\'s what you\'re worried about? Just let that one go.',
+    'Relax, don\'t, uh, yeah don\'t worry about it.',
+    'Yeah, so no, don\'t spend your time on that.',
+    'Don\'t, I mean just, just don\'t, you know, just let it go or whatever. I\'m sure it\'s fine.',
     'Ok, that sounds like, I mean I don\'t want to alarm you, but you might want to see a doctor about that.'
   ];
 
