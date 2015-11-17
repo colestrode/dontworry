@@ -1,3 +1,10 @@
 body {
     background-image: url('../images/real_fake_doors.png')
 }
+
+.terminal-container {
+    background-color: #FAE6AD;
+    margin-top: 10rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
