@@ -34,6 +34,8 @@ $(document).ready(function() {
 
     if (command === 'help') {
       help(terminal);
+    } else if (command === 'real fake doors') {
+      terminal.echo('https://www.youtube.com/watch?v=pxbsV8QWGic');
     } else if(dontWorry) {
       terminal.echo('Don\'t even worry about it.');
     } else {
