@@ -19,6 +19,7 @@ $(document).ready(function() {
 
   var responses = [
     'What are you worried about?',
+    'Don\'t even worry about it.',
     'Yeah you don\'t have to worry about that.',
     'If it were me, I wouldn\'t even worry about that.',
     'What? What are you like crazy or something? Don\'t even worry about it!',
@@ -32,15 +33,12 @@ $(document).ready(function() {
   ];
 
   function interpreter(command, terminal) {
-    var dontWorry = _.random(1, 10) < 4;
     command = _.trim(command).toLowerCase();
 
     if (command === 'help') {
       help(terminal);
     } else if (command === 'real fake doors') {
       terminal.echo('https://www.youtube.com/watch?v=pxbsV8QWGic');
-    } else if(dontWorry) {
-      terminal.echo('Don\'t even worry about it.');
     } else {
       terminal.echo(_.sample(responses));
     }
