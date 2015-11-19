@@ -6,7 +6,8 @@ html {
 body {
     /* Margin bottom by footer height */
     margin-bottom: 30px;
-    background-image: url('../images/real_fake_doors.png')
+    background-image: url('../images/real_fake_doors.png');
+    background-color: #FAE6AD;
 }
 
 .terminal-container {
